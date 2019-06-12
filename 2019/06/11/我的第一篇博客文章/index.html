@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="刘钢·个人博客">
 <meta property="og:description" content="服务器内部跳转代码1request.getRequestDispatcher(&quot;XXX.jsp或者servlet&quot;).forward(request, response)；  说明 因为后面有request和response所以会把信息传到下一个页面。 URL地址不会改变。地址重定向（外部跳转）代码1response.sendRedirect(&quot;XXX.jsp或者servlet&quot;)；    说明">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-06-12T04:32:38.644Z">
+<meta property="og:updated_time" content="2019-06-12T05:03:59.306Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于跳转的介绍">
 <meta name="twitter:description" content="服务器内部跳转代码1request.getRequestDispatcher(&quot;XXX.jsp或者servlet&quot;).forward(request, response)；  说明 因为后面有request和response所以会把信息传到下一个页面。 URL地址不会改变。地址重定向（外部跳转）代码1response.sendRedirect(&quot;XXX.jsp或者servlet&quot;)；    说明">
@@ -167,15 +167,15 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="服务器内部跳转"><a href="#服务器内部跳转" class="headerlink" title="服务器内部跳转"></a>服务器内部跳转</h1><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">request.getRequestDispatcher(<span class="string">"XXX.jsp或者servlet"</span>).forward(request, response)；</span><br></pre></td></tr></table></figure>
+        <h2 id="服务器内部跳转"><a href="#服务器内部跳转" class="headerlink" title="服务器内部跳转"></a>服务器内部跳转</h2><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">request.getRequestDispatcher(<span class="string">"XXX.jsp或者servlet"</span>).forward(request, response)；</span><br></pre></td></tr></table></figure>
 
-<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><ul>
+<h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><ul>
 <li>因为后面有request和response所以会把信息传到下一个页面。</li>
-<li>URL地址不会改变。<h1 id="地址重定向（外部跳转）"><a href="#地址重定向（外部跳转）" class="headerlink" title="地址重定向（外部跳转）"></a>地址重定向（外部跳转）</h1><h2 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">response.sendRedirect(<span class="string">"XXX.jsp或者servlet"</span>)；</span><br></pre></td></tr></table></figure>
+<li>URL地址不会改变。<h2 id="地址重定向（外部跳转）"><a href="#地址重定向（外部跳转）" class="headerlink" title="地址重定向（外部跳转）"></a>地址重定向（外部跳转）</h2><h3 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">response.sendRedirect(<span class="string">"XXX.jsp或者servlet"</span>)；</span><br></pre></td></tr></table></figure>
 
 </li>
 </ul>
-<h2 id="说明-1"><a href="#说明-1" class="headerlink" title="说明"></a>说明</h2><ul>
+<h3 id="说明-1"><a href="#说明-1" class="headerlink" title="说明"></a>说明</h3><ul>
 <li>因为后面没有request和response，因此不会把信息传到下一个页面。</li>
 <li>URL地址会发生改变。</li>
 </ul>
@@ -291,16 +291,6 @@
 </article>
 
   
-<nav id="article-nav">
-  
-  
-    <a href="/2019/06/11/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
